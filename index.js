@@ -63,6 +63,7 @@ function saturdayFun(activity = 'roller-skate'){
 function mondayWork(activity = 'go to the office'){
     return `This Monday, I will ${activity}.`;
 }
+
 function wrapAdjective(character = "*"){
     return function (sth = 'special'){
         return `You are ${character}${sth}${character}!`;
